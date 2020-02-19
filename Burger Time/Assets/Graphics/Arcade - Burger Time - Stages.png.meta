@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: 4b07f61b0ebf098448da457a1afce36c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6805702662888474760
+    second: Stage_01
+  - first:
+      213: -370583572363243573
+    second: Stage_02
+  - first:
+      213: 7851281493151775773
+    second: Stage_03
+  - first:
+      213: 6682843109679028679
+    second: Arcade - Burger Time - Stages_3
+  - first:
+      213: 1603510305842558817
+    second: Arcade - Burger Time - Stages_4
+  - first:
+      213: -3652238979308995897
+    second: Arcade - Burger Time - Stages_5
+  - first:
+      213: -2512113186363325095
+    second: Stage_04
+  - first:
+      213: -1742741238421306616
+    second: Stage_05
+  - first:
+      213: 1999024850006105304
+    second: Stage_06
+  - first:
+      213: 8439665674981162162
+    second: Arcade - Burger Time - Stages_9
+  - first:
+      213: -1145087448667420967
+    second: Arcade - Burger Time - Stages_10
+  - first:
+      213: 3151350718907689865
+    second: Arcade - Burger Time - Stages_11
+  - first:
+      213: 253070800157921743
+    second: Arcade - Burger Time - Stages_12
+  - first:
+      213: -4210921896791677345
+    second: Arcade - Burger Time - Stages_13
+  - first:
+      213: -5400722466067161248
+    second: Arcade - Burger Time - Stages_14
+  - first:
+      213: 9040239365878262209
+    second: Arcade - Burger Time - Stages_15
+  - first:
+      213: 3058539102021398124
+    second: Arcade - Burger Time - Stages_16
+  - first:
+      213: 2523973553823613453
+    second: Arcade - Burger Time - Stages_17
+  - first:
+      213: 8088129327236929540
+    second: Arcade - Burger Time - Stages_18
+  - first:
+      213: 5434347501244733028
+    second: Arcade - Burger Time - Stages_19
+  - first:
+      213: 7757424089790887511
+    second: Arcade - Burger Time - Stages_20
+  - first:
+      213: -6613995119008978190
+    second: Arcade - Burger Time - Stages_21
+  - first:
+      213: -8105911842277634600
+    second: Arcade - Burger Time - Stages_22
+  - first:
+      213: 3213419673259253033
+    second: Arcade - Burger Time - Stages_23
+  - first:
+      213: -6194942913366554058
+    second: Arcade - Burger Time - Stages_24
+  - first:
+      213: -7294421629026802417
+    second: Arcade - Burger Time - Stages_25
+  - first:
+      213: -7773224794287917403
+    second: Arcade - Burger Time - Stages_26
+  - first:
+      213: 7731344542106279763
+    second: Arcade - Burger Time - Stages_27
+  - first:
+      213: 2975360593205354512
+    second: Arcade - Burger Time - Stages_28
+  - first:
+      213: 4494238753449053572
+    second: Arcade - Burger Time - Stages_29
+  - first:
+      213: 319764087428362396
+    second: Arcade - Burger Time - Stages_30
+  - first:
+      213: -2675501793560779200
+    second: Arcade - Burger Time - Stages_31
+  - first:
+      213: 5862534003247077000
+    second: Arcade - Burger Time - Stages_32
+  - first:
+      213: -1023704604347720791
+    second: Arcade - Burger Time - Stages_33
+  - first:
+      213: -6624861713426534034
+    second: Arcade - Burger Time - Stages_34
+  - first:
+      213: -7764528771930168037
+    second: Arcade - Burger Time - Stages_35
+  - first:
+      213: -3139554006922098210
+    second: Arcade - Burger Time - Stages_36
+  - first:
+      213: -6238942564932249792
+    second: Arcade - Burger Time - Stages_37
+  - first:
+      213: 3295592185982313120
+    second: Arcade - Burger Time - Stages_38
+  - first:
+      213: 7250872564555873069
+    second: Arcade - Burger Time - Stages_39
+  - first:
+      213: 1229843145335702559
+    second: Arcade - Burger Time - Stages_40
+  - first:
+      213: -7090305247565817259
+    second: Arcade - Burger Time - Stages_41
+  - first:
+      213: 8238743478346323492
+    second: Arcade - Burger Time - Stages_42
+  - first:
+      213: -6873369547280799193
+    second: Arcade - Burger Time - Stages_43
+  - first:
+      213: -7701448329623387582
+    second: Arcade - Burger Time - Stages_44
+  - first:
+      213: 6241024440915313393
+    second: Arcade - Burger Time - Stages_45
+  - first:
+      213: -2530158978818809618
+    second: Arcade - Burger Time - Stages_46
+  - first:
+      213: -7043413691735654943
+    second: Arcade - Burger Time - Stages_47
+  - first:
+      213: -9194904770471352425
+    second: Arcade - Burger Time - Stages_48
+  - first:
+      213: -1383994817737619135
+    second: Arcade - Burger Time - Stages_49
+  - first:
+      213: 211551211803331580
+    second: Arcade - Burger Time - Stages_50
+  - first:
+      213: -7103961396982066545
+    second: Arcade - Burger Time - Stages_51
+  - first:
+      213: 8325873072063170245
+    second: Arcade - Burger Time - Stages_52
+  - first:
+      213: -8991587178657214956
+    second: Arcade - Burger Time - Stages_53
+  - first:
+      213: -8860608944512706780
+    second: Arcade - Burger Time - Stages_54
+  - first:
+      213: 4691707274476937629
+    second: Arcade - Burger Time - Stages_55
+  - first:
+      213: -2105049101665371995
+    second: Arcade - Burger Time - Stages_56
+  - first:
+      213: 1913142859889188575
+    second: Arcade - Burger Time - Stages_57
+  - first:
+      213: -7559556024153389407
+    second: Arcade - Burger Time - Stages_58
+  - first:
+      213: 5355378811420800205
+    second: Arcade - Burger Time - Stages_59
+  - first:
+      213: -6788144578288749293
+    second: Arcade - Burger Time - Stages_60
+  - first:
+      213: -7605235120462378333
+    second: Arcade - Burger Time - Stages_61
+  - first:
+      213: 6697980297144623676
+    second: Arcade - Burger Time - Stages_62
+  - first:
+      213: -8693005757112009467
+    second: Arcade - Burger Time - Stages_63
+  - first:
+      213: 6015215380991718726
+    second: Arcade - Burger Time - Stages_64
+  - first:
+      213: -5221767076487757772
+    second: Arcade - Burger Time - Stages_65
+  - first:
+      213: -6752440661286160987
+    second: Arcade - Burger Time - Stages_66
+  - first:
+      213: 4014049160161016566
+    second: Arcade - Burger Time - Stages_67
+  - first:
+      213: 1901999342295973725
+    second: Arcade - Burger Time - Stages_68
+  - first:
+      213: 1240703126132745478
+    second: Arcade - Burger Time - Stages_69
+  - first:
+      213: -4661885961083709631
+    second: Arcade - Burger Time - Stages_70
+  - first:
+      213: 5866356145146428109
+    second: Arcade - Burger Time - Stages_71
+  - first:
+      213: -2497015848225018962
+    second: Arcade - Burger Time - Stages_72
+  - first:
+      213: 884096510462448033
+    second: Arcade - Burger Time - Stages_73
+  - first:
+      213: -4043979294532518817
+    second: Arcade - Burger Time - Stages_74
+  - first:
+      213: -6983775980580969440
+    second: Arcade - Burger Time - Stages_75
+  - first:
+      213: 2120330665605083402
+    second: Arcade - Burger Time - Stages_76
+  - first:
+      213: -1584556404380690296
+    second: Arcade - Burger Time - Stages_77
+  - first:
+      213: -4400082100310141296
+    second: Arcade - Burger Time - Stages_78
+  - first:
+      213: -6903612402810149872
+    second: Arcade - Burger Time - Stages_79
+  - first:
+      213: 3734280564747413183
+    second: Arcade - Burger Time - Stages_80
+  - first:
+      213: -42246513061586220
+    second: Arcade - Burger Time - Stages_81
+  - first:
+      213: 3590824683286128115
+    second: Arcade - Burger Time - Stages_82
+  - first:
+      213: 5246507349088438753
+    second: Arcade - Burger Time - Stages_83
+  - first:
+      213: 3118306342484583839
+    second: Arcade - Burger Time - Stages_84
+  - first:
+      213: 6780777927847138041
+    second: Arcade - Burger Time - Stages_85
+  - first:
+      213: 7468954547627074297
+    second: Arcade - Burger Time - Stages_86
+  - first:
+      213: 466703659640343026
+    second: Arcade - Burger Time - Stages_87
+  - first:
+      213: -4544149782245531536
+    second: Arcade - Burger Time - Stages_88
+  - first:
+      213: 469339038779637182
+    second: Arcade - Burger Time - Stages_89
+  - first:
+      213: -2244280874735093172
+    second: Arcade - Burger Time - Stages_90
+  - first:
+      213: 4702267489209633892
+    second: Arcade - Burger Time - Stages_91
+  - first:
+      213: -1013928967859256143
+    second: Arcade - Burger Time - Stages_92
+  - first:
+      213: 3334074070488112155
+    second: Arcade - Burger Time - Stages_93
+  - first:
+      213: -4946742564061540894
+    second: Arcade - Burger Time - Stages_94
+  - first:
+      213: 3241480319098541528
+    second: Arcade - Burger Time - Stages_95
+  - first:
+      213: 3297464588924672896
+    second: Arcade - Burger Time - Stages_96
+  - first:
+      213: 4579377403427277491
+    second: Arcade - Burger Time - Stages_97
+  - first:
+      213: -4051888333047517381
+    second: Arcade - Burger Time - Stages_98
+  - first:
+      213: -5880479221933300361
+    second: Arcade - Burger Time - Stages_99
+  - first:
+      213: -1809743774095949348
+    second: Arcade - Burger Time - Stages_100
+  - first:
+      213: 8462037665341885764
+    second: Arcade - Burger Time - Stages_101
+  - first:
+      213: -6173283381225310789
+    second: Arcade - Burger Time - Stages_102
+  - first:
+      213: -300799783376778843
+    second: Arcade - Burger Time - Stages_103
+  - first:
+      213: -7653225661551972043
+    second: Arcade - Burger Time - Stages_104
+  - first:
+      213: 323457918057952702
+    second: Arcade - Burger Time - Stages_105
+  - first:
+      213: 3121929544116378834
+    second: Arcade - Burger Time - Stages_106
+  - first:
+      213: 9109900304340085991
+    second: Arcade - Burger Time - Stages_107
+  - first:
+      213: 8449282268531871178
+    second: Arcade - Burger Time - Stages_108
+  - first:
+      213: 5877646213348568219
+    second: Arcade - Burger Time - Stages_109
+  - first:
+      213: 4281860547873221706
+    second: Arcade - Burger Time - Stages_110
+  - first:
+      213: -1456240631446655674
+    second: Arcade - Burger Time - Stages_111
+  - first:
+      213: -8336890092920390072
+    second: Arcade - Burger Time - Stages_112
+  - first:
+      213: -2565688193197377868
+    second: Arcade - Burger Time - Stages_113
+  - first:
+      213: 8789964331932661611
+    second: Arcade - Burger Time - Stages_114
+  - first:
+      213: -8862494739924811426
+    second: Arcade - Burger Time - Stages_115
+  - first:
+      213: 1611800467824181682
+    second: Arcade - Burger Time - Stages_116
+  - first:
+      213: 871030681287152104
+    second: Arcade - Burger Time - Stages_117
+  - first:
+      213: 1385036841327996962
+    second: Arcade - Burger Time - Stages_118
+  - first:
+      213: 6820681199760951847
+    second: Arcade - Burger Time - Stages_119
+  - first:
+      213: -7805918253855822562
+    second: Arcade - Burger Time - Stages_120
+  - first:
+      213: -7344303692531316854
+    second: Arcade - Burger Time - Stages_121
+  - first:
+      213: -3174746539482114202
+    second: Arcade - Burger Time - Stages_122
+  - first:
+      213: 9158904943114854830
+    second: Arcade - Burger Time - Stages_123
+  - first:
+      213: -7672417995907572275
+    second: Arcade - Burger Time - Stages_124
+  - first:
+      213: 8603576312420181552
+    second: Arcade - Burger Time - Stages_125
+  - first:
+      213: -2377668425950016285
+    second: Arcade - Burger Time - Stages_126
+  - first:
+      213: 3349291397244965517
+    second: Arcade - Burger Time - Stages_127
+  - first:
+      213: -926412780310118628
+    second: Arcade - Burger Time - Stages_128
+  - first:
+      213: 460628452661996479
+    second: Arcade - Burger Time - Stages_129
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stage_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c5648386b27e50800000000000000
+      internalID: 6805702662888474760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_02
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 640
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf81b1543c6bdaf0800000000000000
+      internalID: -370583572363243573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_03
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 640
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cf8ee8bea55fc60800000000000000
+      internalID: 7851281493151775773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9d51aa66a3ebc50800000000000000
+      internalID: 6682843109679028679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 432
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1677c6d9020d04610800000000000000
+      internalID: 1603510305842558817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cab37baff3a05dc0800000000000000
+      internalID: -3652238979308995897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9554d33ed5e232dd0800000000000000
+      internalID: -2512113186363325095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_05
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 224
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803497cb31a80d7e0800000000000000
+      internalID: -1742741238421306616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_06
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 224
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcdac18286fdbb10800000000000000
+      internalID: 1999024850006105304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc3f445737bf1570800000000000000
+      internalID: 8439665674981162162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 16
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d68b694805db10f0800000000000000
+      internalID: -1145087448667420967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Burger Time - Stages_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 16
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b2a2348c8dbbb20800000000000000
+      internalID: 3151350718907689865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
