@@ -70,67 +70,67 @@ TextureImporter:
     second: BTSpriteSheet_21
   - first:
       213: 2342321448489179329
-    second: BTSpriteSheet_22
+    second: Salt_Anim_Side_01
   - first:
       213: -3719070775001936875
-    second: BTSpriteSheet_23
+    second: Salt_Anim_Side_02
   - first:
       213: -8377089172895785617
-    second: BTSpriteSheet_24
+    second: Salt_Anim_Side_03
   - first:
       213: -802050783238220726
-    second: BTSpriteSheet_25
+    second: Salt_Anim_Side_04
   - first:
       213: -3046717593256578341
-    second: BTSpriteSheet_26
+    second: Sausage_Anim_Down_01
   - first:
       213: -6821073498879169199
-    second: BTSpriteSheet_27
+    second: Sausage_Anim_Down_02
   - first:
       213: 5320979558819773369
-    second: BTSpriteSheet_28
+    second: Sausage_Anim_Side_01
   - first:
       213: -3061606404500624319
-    second: BTSpriteSheet_29
+    second: Sausage_Anim_Side_02
   - first:
       213: -2492006961370997514
-    second: BTSpriteSheet_30
+    second: Sausage_Anim_Up_01
   - first:
       213: -6412775523624875766
-    second: BTSpriteSheet_31
+    second: Sausage_Anim_Up_02
   - first:
       213: -4710737292390109774
     second: BTSpriteSheet_32
   - first:
       213: 366645764774162289
-    second: BTSpriteSheet_33
+    second: Salt_Anim_Down_01
   - first:
       213: -395923301551357431
-    second: BTSpriteSheet_34
+    second: Salt_Anim_Down_02
   - first:
       213: 2445709094400000047
-    second: BTSpriteSheet_35
+    second: Salt_Anim_Down_03
   - first:
       213: -5513125767937747288
-    second: BTSpriteSheet_36
+    second: Salt_Anim_Down_04
   - first:
       213: 815630400275918752
-    second: BTSpriteSheet_37
+    second: Sausage_Anim_Death_01
   - first:
       213: -3595200763243490100
-    second: BTSpriteSheet_38
+    second: Sausage_Anim_Death_02
   - first:
       213: -806716685737312347
-    second: BTSpriteSheet_39
+    second: Sausage_Anim_Death_03
   - first:
       213: -5084276908663305891
-    second: BTSpriteSheet_40
+    second: Sausage_Anim_Death_04
   - first:
       213: 3900205951561432453
-    second: BTSpriteSheet_41
+    second: Sausage_Anim_Salted_01
   - first:
       213: -3793418305016136332
-    second: BTSpriteSheet_42
+    second: Sausage_Anim_Salted_02
   - first:
       213: 271894717868180170
     second: BTSpriteSheet_43
@@ -142,34 +142,34 @@ TextureImporter:
     second: BTSpriteSheet_45
   - first:
       213: 8217724090885059892
-    second: BTSpriteSheet_46
+    second: Salt_Anim_Up_01
   - first:
       213: -1140424048715489697
-    second: BTSpriteSheet_47
+    second: Salt_Anim_Up_02
   - first:
       213: -6803941942220112369
-    second: BTSpriteSheet_48
+    second: Salt_Anim_Up_03
   - first:
       213: -6428421732625204432
-    second: BTSpriteSheet_49
+    second: Salt_Anim_Up_04
   - first:
       213: 4632557271781707472
-    second: BTSpriteSheet_50
+    second: Pickle_Anim_Down_01
   - first:
       213: -973927934666643405
-    second: BTSpriteSheet_51
+    second: Pickle_Anim_Down_02
   - first:
       213: -3317544486558613197
-    second: BTSpriteSheet_52
+    second: Pickle_Anim_Side_01
   - first:
       213: 7197795564805388899
-    second: BTSpriteSheet_53
+    second: Pickle_Anim_Side_02
   - first:
       213: -4577500058860388880
-    second: BTSpriteSheet_54
+    second: Pickle_Anim_Up_01
   - first:
       213: 905470291771618916
-    second: BTSpriteSheet_55
+    second: Pickle_Anim_Up_02
   - first:
       213: -1659857075440272266
     second: BTSpriteSheet_56
@@ -178,22 +178,22 @@ TextureImporter:
     second: BTSpriteSheet_57
   - first:
       213: 5064878173058638896
-    second: BTSpriteSheet_58
+    second: Pickle_Anim_Death_01
   - first:
       213: 7243801898809326275
-    second: BTSpriteSheet_59
+    second: Pickle_Anim_Death_02
   - first:
       213: -6121658267814432617
-    second: BTSpriteSheet_60
+    second: Pickle_Anim_Death_03
   - first:
       213: 3127429726172418399
-    second: BTSpriteSheet_61
+    second: Pickle_Anim_Death_04
   - first:
       213: 8198855364256723377
-    second: BTSpriteSheet_62
+    second: Pickle_Anim_Salted_01
   - first:
       213: -7702458181248410913
-    second: BTSpriteSheet_63
+    second: Pickle_Anim_Salted_02
   - first:
       213: -7911289400683728413
     second: BTSpriteSheet_64
@@ -202,49 +202,49 @@ TextureImporter:
     second: BTSpriteSheet_65
   - first:
       213: -4864022360047728979
-    second: BTSpriteSheet_66
+    second: Egg_Anim_Down_01
   - first:
       213: 7738583889290564725
-    second: BTSpriteSheet_67
+    second: Egg_Anim_Down_02
   - first:
       213: -3300330802302576698
-    second: BTSpriteSheet_68
+    second: Egg_Anim_Side_01
   - first:
       213: -1060332776907865638
-    second: BTSpriteSheet_69
+    second: Egg_Anim_Side_02
   - first:
       213: -5740632440187966563
-    second: BTSpriteSheet_70
+    second: Egg_Anim_Up_01
   - first:
       213: -7056495204018558701
-    second: BTSpriteSheet_71
+    second: Egg_Anim_Up_02
   - first:
       213: -4000344300617457354
-    second: BTSpriteSheet_72
+    second: Egg_Anim_Death_01
   - first:
       213: 197366897735167706
-    second: BTSpriteSheet_73
+    second: Egg_Anim_Death_02
   - first:
       213: 2512104687741691173
-    second: BTSpriteSheet_74
+    second: Egg_Anim_Death_03
   - first:
       213: 6903083324699680871
-    second: BTSpriteSheet_75
+    second: Egg_Anim_Death_04
   - first:
       213: -9124263721878485821
-    second: BTSpriteSheet_76
+    second: Egg_Anim_Salted_01
   - first:
       213: -5447271934016426435
-    second: BTSpriteSheet_77
+    second: Egg_Anim_Salted_02
   - first:
       213: 3870730705099395534
-    second: BTSpriteSheet_78
+    second: Icecream_Bonus
   - first:
       213: 9145072884170081935
-    second: BTSpriteSheet_79
+    second: Coffee_Bonus
   - first:
       213: 4893989718456089441
-    second: BTSpriteSheet_80
+    second: Chips_Bonus
   - first:
       213: -2931492365002088425
     second: BTSpriteSheet_81
@@ -848,7 +848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_22
+      name: Salt_Anim_Side_01
       rect:
         serializedVersion: 2
         x: 176
@@ -869,7 +869,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_23
+      name: Salt_Anim_Side_02
       rect:
         serializedVersion: 2
         x: 192
@@ -890,7 +890,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_24
+      name: Salt_Anim_Side_03
       rect:
         serializedVersion: 2
         x: 208
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_25
+      name: Salt_Anim_Side_04
       rect:
         serializedVersion: 2
         x: 224
@@ -932,7 +932,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_26
+      name: Sausage_Anim_Down_01
       rect:
         serializedVersion: 2
         x: 0
@@ -953,7 +953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_27
+      name: Sausage_Anim_Down_02
       rect:
         serializedVersion: 2
         x: 16
@@ -974,7 +974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_28
+      name: Sausage_Anim_Side_01
       rect:
         serializedVersion: 2
         x: 32
@@ -995,7 +995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_29
+      name: Sausage_Anim_Side_02
       rect:
         serializedVersion: 2
         x: 48
@@ -1016,7 +1016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_30
+      name: Sausage_Anim_Up_01
       rect:
         serializedVersion: 2
         x: 64
@@ -1037,7 +1037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_31
+      name: Sausage_Anim_Up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1079,7 +1079,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_33
+      name: Salt_Anim_Down_01
       rect:
         serializedVersion: 2
         x: 176
@@ -1100,7 +1100,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_34
+      name: Salt_Anim_Down_02
       rect:
         serializedVersion: 2
         x: 192
@@ -1121,7 +1121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_35
+      name: Salt_Anim_Down_03
       rect:
         serializedVersion: 2
         x: 208
@@ -1142,7 +1142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_36
+      name: Salt_Anim_Down_04
       rect:
         serializedVersion: 2
         x: 224
@@ -1163,7 +1163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_37
+      name: Sausage_Anim_Death_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1184,7 +1184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_38
+      name: Sausage_Anim_Death_02
       rect:
         serializedVersion: 2
         x: 16
@@ -1205,7 +1205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_39
+      name: Sausage_Anim_Death_03
       rect:
         serializedVersion: 2
         x: 32
@@ -1226,7 +1226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_40
+      name: Sausage_Anim_Death_04
       rect:
         serializedVersion: 2
         x: 48
@@ -1247,7 +1247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_41
+      name: Sausage_Anim_Salted_01
       rect:
         serializedVersion: 2
         x: 64
@@ -1268,7 +1268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_42
+      name: Sausage_Anim_Salted_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1352,7 +1352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_46
+      name: Salt_Anim_Up_01
       rect:
         serializedVersion: 2
         x: 176
@@ -1373,7 +1373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_47
+      name: Salt_Anim_Up_02
       rect:
         serializedVersion: 2
         x: 192
@@ -1394,7 +1394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_48
+      name: Salt_Anim_Up_03
       rect:
         serializedVersion: 2
         x: 208
@@ -1415,7 +1415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_49
+      name: Salt_Anim_Up_04
       rect:
         serializedVersion: 2
         x: 224
@@ -1436,7 +1436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_50
+      name: Pickle_Anim_Down_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1457,7 +1457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_51
+      name: Pickle_Anim_Down_02
       rect:
         serializedVersion: 2
         x: 16
@@ -1478,7 +1478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_52
+      name: Pickle_Anim_Side_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1499,7 +1499,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_53
+      name: Pickle_Anim_Side_02
       rect:
         serializedVersion: 2
         x: 48
@@ -1520,7 +1520,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_54
+      name: Pickle_Anim_Up_01
       rect:
         serializedVersion: 2
         x: 64
@@ -1541,7 +1541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_55
+      name: Pickle_Anim_Up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1604,7 +1604,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_58
+      name: Pickle_Anim_Death_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1625,7 +1625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_59
+      name: Pickle_Anim_Death_02
       rect:
         serializedVersion: 2
         x: 16
@@ -1646,7 +1646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_60
+      name: Pickle_Anim_Death_03
       rect:
         serializedVersion: 2
         x: 32
@@ -1667,7 +1667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_61
+      name: Pickle_Anim_Death_04
       rect:
         serializedVersion: 2
         x: 48
@@ -1688,7 +1688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_62
+      name: Pickle_Anim_Salted_01
       rect:
         serializedVersion: 2
         x: 64
@@ -1709,7 +1709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_63
+      name: Pickle_Anim_Salted_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1772,7 +1772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_66
+      name: Egg_Anim_Down_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1793,7 +1793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_67
+      name: Egg_Anim_Down_02
       rect:
         serializedVersion: 2
         x: 16
@@ -1814,7 +1814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_68
+      name: Egg_Anim_Side_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1835,7 +1835,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_69
+      name: Egg_Anim_Side_02
       rect:
         serializedVersion: 2
         x: 48
@@ -1856,7 +1856,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_70
+      name: Egg_Anim_Up_01
       rect:
         serializedVersion: 2
         x: 64
@@ -1877,7 +1877,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_71
+      name: Egg_Anim_Up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1898,7 +1898,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_72
+      name: Egg_Anim_Death_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1919,7 +1919,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_73
+      name: Egg_Anim_Death_02
       rect:
         serializedVersion: 2
         x: 16
@@ -1940,7 +1940,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_74
+      name: Egg_Anim_Death_03
       rect:
         serializedVersion: 2
         x: 32
@@ -1961,7 +1961,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_75
+      name: Egg_Anim_Death_04
       rect:
         serializedVersion: 2
         x: 48
@@ -1982,7 +1982,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_76
+      name: Egg_Anim_Salted_01
       rect:
         serializedVersion: 2
         x: 64
@@ -2003,7 +2003,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_77
+      name: Egg_Anim_Salted_02
       rect:
         serializedVersion: 2
         x: 80
@@ -2024,7 +2024,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_78
+      name: Icecream_Bonus
       rect:
         serializedVersion: 2
         x: 0
@@ -2045,7 +2045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_79
+      name: Coffee_Bonus
       rect:
         serializedVersion: 2
         x: 16
@@ -2066,7 +2066,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_80
+      name: Chips_Bonus
       rect:
         serializedVersion: 2
         x: 32
