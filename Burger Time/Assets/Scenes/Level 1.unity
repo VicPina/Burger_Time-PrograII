@@ -536,8 +536,8 @@ GameObject:
   - component: {fileID: 1320857705}
   - component: {fileID: 1320857704}
   - component: {fileID: 1320857708}
-  - component: {fileID: 1320857706}
   - component: {fileID: 1320857707}
+  - component: {fileID: 1320857706}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -643,7 +643,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

@@ -12,26 +12,27 @@ public class PlayerController : MonoBehaviour
     public float reloadTime = 1.0f;
     private float lastTimeShot = 0f;
 
-
-    public GameObject saltPrefab;
-
-    public GameObject deathPrefab;
-
+    private Animator anim;
+    private SpriteRenderer render;
     private Rigidbody2D rigidBody;
 
+    public GameObject saltPrefab;
+    public GameObject deathPrefab;
+
+    // Use this for initialization
+    public void Awake()
+    {
+        anim = GetComponentInChildren<Animator>();
+        render = GetComponentInChildren<SpriteRenderer>();
+        rigidBody = GetComponent<Rigidbody2D>();
+    }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         //Check if the player collides with any stair
         if (other.tag == "Stairs") { onStair = true; }
     }
-
-
-    // Use this for initialization
-    void Start()
-    {
-        rigidBody = GetComponent<Rigidbody2D>();
-    }
-
+        
     void FixedUpdate()
     {
         //Get the new position of our character
