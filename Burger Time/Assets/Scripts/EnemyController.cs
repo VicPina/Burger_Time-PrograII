@@ -19,5 +19,6 @@ public class EnemyController : MonoBehaviour
     {
         //Create an explosion on the coordinates of the hit.
         //Instantiate(saltedPrefab, hitCoordinates, Quaternion.identity);
+        Debug.Log("Stunned");
     }
 }

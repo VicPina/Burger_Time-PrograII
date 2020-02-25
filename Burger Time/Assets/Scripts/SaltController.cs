@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
-public class BulletController : MonoBehaviour
+public class SaltController : MonoBehaviour
 {
     public float timeBeforeDestruction = 3.0f;
     private Rigidbody2D rigidBody;
