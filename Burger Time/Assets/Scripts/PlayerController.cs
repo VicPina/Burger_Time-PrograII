@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         //Get the new position of our character
         var x = transform.position.x + Input.GetAxis("Horizontal") * Time.deltaTime * speed;
 
-        var y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed;
+        // var y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
         //Clamp along x-value according to boundX variable
         x = Mathf.Clamp(x, -boundX, boundX);
@@ -65,12 +65,12 @@ public class PlayerController : MonoBehaviour
         //DEBUG CODE: simulates the Hit() function when the player presses the T key
         if (Input.GetKeyDown(KeyCode.T))
         {
-            Hit(transform.position);
+            Death(transform.position);
         }
 
     }
 
-    public void Hit(Vector3 hitCoordinates)
+    public void Death(Vector3 hitCoordinates)
     {
         //Create an explosion on the coordinates of the hit.
         Instantiate(deathPrefab, hitCoordinates, Quaternion.identity);
