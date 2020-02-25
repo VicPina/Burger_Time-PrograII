@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviour
     {
         
        
-        if(Input.GetKeyDown(KeyCode.A)) { side = true; }
-        else if (Input.GetKeyDown(KeyCode.D)) { side = true; }
+        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) { side = true; }
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) { side = true; }
         anim.SetBool("Side", side);
 
         //Get the new position of our character
