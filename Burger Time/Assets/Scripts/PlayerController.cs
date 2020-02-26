@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
                 //Create the bullet
                 Instantiate(saltPrefab, transform.position, Quaternion.identity);
+                //saltPrefab.transform.position
             }
         }
     }
