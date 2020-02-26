@@ -25,11 +25,18 @@ public class PlayerController : MonoBehaviour
         rigidBody = GetComponent<Rigidbody2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         //Check if the player collides with any stair
         if (other.tag == "Stairs") { onStair = true; }
-        if (other.tag == "Enemy") { Debug.Log("You died"); }
+        //Check if  player hits an enemy
+        if (other.tag == "Enemy") { Death(); }
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        //Check if the player collides with any stair
+        if (other.tag == "Stairs") { onStair = false; }
     }
 
     private void Update()
@@ -42,17 +49,18 @@ public class PlayerController : MonoBehaviour
 
         //Get the new position of our character
         var x = transform.position.x + Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        
+        var y = transform.position.y;
         if (onStair) 
         {         
-            //var y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed;
+            y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed;
             Debug.Log("Subiendo"); 
         }
         
         //Set the position of our character through the RigidBody2D component (since we are using physics)
-        rigidBody.MovePosition(new Vector2(x, transform.position.y));
-            //rigidBody.MovePosition(new Vector2(x, y));
+        //rigidBody.MovePosition(new Vector2(x, transform.position.y));
+        rigidBody.MovePosition(new Vector2(x, y));
 
+        
 
         //Check if the player has fired
         if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1"))
@@ -73,7 +81,7 @@ public class PlayerController : MonoBehaviour
     {
         //Create an explosion on the coordinates of the hit.
         //Instantiate(deathPrefab, hitCoordinates, Quaternion.identity);
-
+        Debug.Log("You died");
         //Remove a life
        // FindObjectOfType<LivesCounter>().RemoveLife();
     }
