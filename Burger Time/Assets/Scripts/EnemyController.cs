@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
     }
     public void Salted(Vector3 hitCoordinates)
     {
+        Destroy(gameObject);
         //Create an explosion on the coordinates of the hit.
         //Instantiate(saltedPrefab, hitCoordinates, Quaternion.identity);
         Debug.Log("Stunned");

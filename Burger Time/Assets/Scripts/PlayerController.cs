@@ -43,21 +43,17 @@ public class PlayerController : MonoBehaviour
     {
         
        
-        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) { side = true; }
-        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) { side = true; }
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) { side = true; }
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) { side = true; }
         anim.SetBool("Side", side);
 
         //Get the new position of our character
         var x = transform.position.x + Input.GetAxis("Horizontal") * Time.deltaTime * speed;
         var y = transform.position.y;
-        if (onStair) 
-        {         
-            y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed;
-            Debug.Log("Subiendo"); 
-        }
+
+        if (onStair) { y = transform.position.y + Input.GetAxis("Vertical") * Time.deltaTime * speed; }
         
         //Set the position of our character through the RigidBody2D component (since we are using physics)
-        //rigidBody.MovePosition(new Vector2(x, transform.position.y));
         rigidBody.MovePosition(new Vector2(x, y));
 
         
@@ -68,7 +64,7 @@ public class PlayerController : MonoBehaviour
             //Check if the player can shoot since last time it threw salt
             if (Time.time - lastTimeShot > reloadTime)
             {
-                //Set the current time as the last time the spaceship has fired
+                //Set the current time as the last time the salt was thrown
                 lastTimeShot = Time.time;
 
                 //Create the bullet
