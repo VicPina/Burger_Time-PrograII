@@ -26,13 +26,4 @@ public class SaltController : MonoBehaviour
         //Destroy the bullet if it didn't hit anything after 10 seconds
         Destroy(gameObject, timeBeforeDestruction);
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Enemy")
-        {
-            //Send the message to the enemy that the spaceship has been hit
-            other.GetComponent<EnemyController>().Salted(transform.position);
-        }
-    }
 }

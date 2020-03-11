@@ -133,10 +133,10 @@ TextureImporter:
     second: Sausage_Anim_Salted_02
   - first:
       213: 271894717868180170
-    second: BTSpriteSheet_43
+    second: Bun_Top_01
   - first:
       213: 394102779850080228
-    second: BTSpriteSheet_44
+    second: Bun_Top_02
   - first:
       213: 660001804968051577
     second: BTSpriteSheet_45
@@ -172,10 +172,10 @@ TextureImporter:
     second: Pickle_Anim_Up_02
   - first:
       213: -1659857075440272266
-    second: BTSpriteSheet_56
+    second: Bun_Top_03
   - first:
       213: 5729708229948644104
-    second: BTSpriteSheet_57
+    second: Bun_Top_04
   - first:
       213: 5064878173058638896
     second: Pickle_Anim_Death_01
@@ -196,10 +196,10 @@ TextureImporter:
     second: Pickle_Anim_Salted_02
   - first:
       213: -7911289400683728413
-    second: BTSpriteSheet_64
+    second: Lettuce_01
   - first:
       213: 2137412030569209213
-    second: BTSpriteSheet_65
+    second: Lettuce_02
   - first:
       213: -4864022360047728979
     second: Egg_Anim_Down_01
@@ -290,6 +290,66 @@ TextureImporter:
   - first:
       213: -998411972816385612
     second: BTSpriteSheet_95
+  - first:
+      213: 3387355994685302591
+    second: Bun_Down_01
+  - first:
+      213: -7005987889159006002
+    second: Bun_Down_02
+  - first:
+      213: -7430394955752483560
+    second: Bun_Down_01
+  - first:
+      213: -3891317846178068698
+    second: Bun_Down_02
+  - first:
+      213: 7168782579676690515
+    second: Bun_Down_03
+  - first:
+      213: -7205672597706807748
+    second: Bun_Down_04
+  - first:
+      213: -3985787660355297584
+    second: Cheese_01
+  - first:
+      213: -7898431597618459524
+    second: Cheese_02
+  - first:
+      213: -8710088314749861857
+    second: Cheese_03
+  - first:
+      213: 3697431809686545122
+    second: Cheese_04
+  - first:
+      213: 2280511974435546560
+    second: Patty_01
+  - first:
+      213: 7897183507183205719
+    second: Patty_02
+  - first:
+      213: -8851936708792637202
+    second: Patty_03
+  - first:
+      213: 5469769764317491666
+    second: Patty_04
+  - first:
+      213: 5874831664969389301
+    second: Lettuce_03
+  - first:
+      213: -9220301158258308692
+    second: Lettuce_04
+  - first:
+      213: -5553872904567561342
+    second: Tomato_01
+  - first:
+      213: -1200693851106744996
+    second: Tomato_02
+  - first:
+      213: -6088907831703056927
+    second: Tomato_03
+  - first:
+      213: 8901586667627876024
+    second: Tomato_04
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1289,13 +1349,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_43
+      name: Bun_Top_01
       rect:
         serializedVersion: 2
         x: 112
-        y: 112
-        width: 16
-        height: 16
+        y: 120
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1310,13 +1370,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_44
+      name: Bun_Top_02
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
+        x: 120
+        y: 120
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1562,13 +1622,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_56
+      name: Bun_Top_03
       rect:
         serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 16
+        x: 127
+        y: 120
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1583,13 +1643,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_57
+      name: Bun_Top_04
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 16
-        height: 16
+        x: 135
+        y: 120
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1730,13 +1790,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_64
+      name: Lettuce_01
       rect:
         serializedVersion: 2
         x: 112
         y: 80
-        width: 16
-        height: 16
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1751,13 +1811,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BTSpriteSheet_65
+      name: Lettuce_02
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 80
-        width: 16
-        height: 16
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2397,6 +2457,384 @@ TextureImporter:
       bones: []
       spriteID: 4b948ccb99de422f0800000000000000
       internalID: -998411972816385612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Down_01
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37e107845e420f20800000000000000
+      internalID: 3387355994685302591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Down_02
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6270b6639034ff9c0800000000000000
+      internalID: -3891317846178068698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Down_03
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35833ad36c1ac7360800000000000000
+      internalID: 7168782579676690515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Down_04
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c366bed13fe400c90800000000000000
+      internalID: -7205672597706807748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_01
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de13629d33afa8c0800000000000000
+      internalID: -3985787660355297584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_02
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0b354f42236290800000000000000
+      internalID: -7898431597618459524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10cd0563dc8f1780800000000000000
+      internalID: -8710088314749861857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_04
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a89d14aaef4330800000000000000
+      internalID: 3697431809686545122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_01
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5614ede8106af10800000000000000
+      internalID: 2280511974435546560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_02
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d7ab70f8e689d60800000000000000
+      internalID: 7897183507183205719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8ac22867a972580800000000000000
+      internalID: -8851936708792637202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_04
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1f05dde9688eb40800000000000000
+      internalID: 5469769764317491666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f497b9e548978150800000000000000
+      internalID: 5874831664969389301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_04
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca904e3a2f8ea0080800000000000000
+      internalID: -9220301158258308692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_01
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 88
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283659bd40eace2b0800000000000000
+      internalID: -5553872904567561342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_02
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5569c0dd47465fe0800000000000000
+      internalID: -1200693851106744996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_03
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edce35669adf7ba0800000000000000
+      internalID: -6088907831703056927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_04
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 88
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be005d59e9c88b70800000000000000
+      internalID: 8901586667627876024
       vertices: []
       indices: 
       edges: []

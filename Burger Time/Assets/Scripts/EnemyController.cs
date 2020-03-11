@@ -9,7 +9,14 @@ public class EnemyController : MonoBehaviour
     {
         
     }
-
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Salt")
+        {
+            //Send the message to the enemy that the spaceship has been hit
+            other.GetComponent<EnemyController>().Salted(transform.position);
+        }
+    }
     // Update is called once per frame
     void Update()
     {
