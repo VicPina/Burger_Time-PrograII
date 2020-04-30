@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float reloadTime = 1.0f;
     private float lastTimeShot = 0f;
-    bool side = false;
+    
     private Animator anim;
+    bool side = false;
+        
     private SpriteRenderer render;
     private Rigidbody2D rigidBody;
 
@@ -28,7 +30,11 @@ public class PlayerController : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         //Check if the player collides with any stair
-        if (other.tag == "Stairs") { onStair = true; }
+        if (other.tag == "Stairs") 
+        { 
+            onStair = true;
+            rigidBody.gravityScale = 0.0f;
+        }
         //Check if  player hits an enemy
         if (other.tag == "Enemy") { Death(); }
     }
@@ -36,7 +42,11 @@ public class PlayerController : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         //Check if the player collides with any stair
-        if (other.tag == "Stairs") { onStair = false; }
+        if (other.tag == "Stairs") 
+        { 
+            onStair = false; 
+            rigidBody.gravityScale = 2.8f;
+        }
     }
 
     private void Update()
