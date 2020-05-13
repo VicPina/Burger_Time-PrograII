@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     public GameObject saltPrefab;
 
     // Use this for initialization
-    public void Awake()
+    private void Awake()
     {
         anim = GetComponentInChildren<Animator>();
         render = GetComponentInChildren<SpriteRenderer>();

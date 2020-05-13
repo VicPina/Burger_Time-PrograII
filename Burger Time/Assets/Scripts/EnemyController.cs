@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     private GameObject player;
 
     // Awake is called at initialization of the object 
-    public void Awake()
+    private void Awake()
     {
         anim = GetComponentInChildren<Animator>();
         render = GetComponentInChildren<SpriteRenderer>();
@@ -49,7 +49,7 @@ public class EnemyController : MonoBehaviour
         if (other.tag == "FloorSign") { onSign = false; }
     }
     // Update is called once per frame
-    public void Update()
+    private void Update()
     {
         // Check the player's position
         if (player.transform.position.y < transform.position.y) { direction[1] = false; }

@@ -12,7 +12,7 @@ public class IngredientController : MonoBehaviour
     private Rigidbody2D rigidBody;
 
     // Awake is called at initialization of the object 
-    void Awake()
+    private void Awake()
     {
         render = GetComponentInChildren<SpriteRenderer>();
         rigidBody = GetComponentInChildren<Rigidbody2D>();
@@ -21,10 +21,10 @@ public class IngredientController : MonoBehaviour
         set = false;
     }
 
-    public void OnTriggerEnter2D(Collider2D other) { if (other.tag == "Player") { hit = true; } }
+    private void OnTriggerEnter2D(Collider2D other) { if (other.tag == "Player") { hit = true; } }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         var x = transform.position.x;
         var y = transform.position.y;
