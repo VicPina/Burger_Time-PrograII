@@ -84,11 +84,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Death()
+    public bool Death()
     {
         //Create an explosion on the coordinates of the hit.
         //Instantiate(deathPrefab, hitCoordinates, Quaternion.identity);
         Debug.Log("You died");
+        return true;
         //Remove a life
        // FindObjectOfType<LivesCounter>().RemoveLife();
     }

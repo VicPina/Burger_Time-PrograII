@@ -6,7 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class EnemyController : MonoBehaviour
 {
-    public bool onStair;
+    private bool onStair, newFloor, walking, onSign, changeDirection;
+    private bool[] direction;
     public float speed = 0.2f;
 
     private Animator anim;
@@ -23,12 +24,17 @@ public class EnemyController : MonoBehaviour
         render = GetComponentInChildren<SpriteRenderer>();
         rigidBody = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
+
+        walking = true;
+        direction = new bool[2];   // Left/Right
+                                  // Up/Down
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the player collides with any stair
+        // Check if the enemy enters an object
         if (other.tag == "Stairs") { onStair = true; }
+        if (other.tag == "FloorSign") { onSign = true; }
         // Check if the player collides with any stair
         if (other.tag == "Salt")
         {
@@ -38,26 +44,49 @@ public class EnemyController : MonoBehaviour
     }
     public void OnTriggerExit2D(Collider2D other)
     {
-        //Check if the player collides with any stair
+        //Check if the enemy leaves an object
         if (other.tag == "Stairs") { onStair = false; }
+        if (other.tag == "FloorSign") { onSign = false; }
     }
     // Update is called once per frame
-    void Update()
+    public void Update()
+    {
+        // Check the player's position
+        if (player.transform.position.y < transform.position.y) { direction[1] = false; }
+        else if (player.transform.position.y > transform.position.y) { direction[1] = true; }
+        if (player.transform.position.x < transform.position.x) { direction[0] = true; }
+        else if (player.transform.position.x > transform.position.x) { direction[0] = false; }
+
+        Move();
+    }
+    // Commands the enemy to move around the environment
+    public void Move()
     {
         var x = transform.position.x;
         var y = transform.position.y;
-        //Get the new position of our character
-        if (player.transform.position.x < transform.position.x) { x = transform.position.x - 0.5f * Time.deltaTime * speed; } 
-        else if(player.transform.position.x > transform.position.x) { x = transform.position.x + 0.5f * Time.deltaTime * speed; }
-        if (onStair)
+
+        if (walking)
         {
-            if (player.transform.position.y != transform.position.y)
+            //Get the new position of our character
+            if (direction[0]) { x = transform.position.x - 0.5f * Time.deltaTime * speed; }
+            else if (!direction[0]) { x = transform.position.x + 0.5f * Time.deltaTime * speed; }
+            if (onStair && player.transform.position.y != transform.position.y)
             {
-                if (player.transform.position.y < transform.position.y) { y = transform.position.y - 0.5f * Time.deltaTime * speed; }
-                else if (player.transform.position.y > transform.position.y) { y = transform.position.y + 0.5f * Time.deltaTime * speed; }
+                walking = false;
+                newFloor = true;
             }
         }
-        //Set the position of our character through the RigidBody2D component (since we are using physics)
+        else if (!walking)
+        {
+            if (direction[1]) { y = transform.position.y + 0.5f * Time.deltaTime * speed; }
+            else if (!direction[1]) { y = transform.position.y - 0.5f * Time.deltaTime * speed; }
+            if (onSign && newFloor)
+            {
+                walking = true;
+                newFloor = false;
+            }
+        }
+
         rigidBody.MovePosition(new Vector2(x, y));
     }
     public void Salted()
