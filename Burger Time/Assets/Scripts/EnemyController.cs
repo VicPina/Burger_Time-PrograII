@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
 {
     private bool onStair, newFloor, walking, onSign, changeDirection;
     private bool[] direction;
+    public float stuntTime = 3.0f;
+    public float saltHit = 0f;
     public float speed = 0.2f;
 
     private Animator anim;
@@ -35,12 +37,7 @@ public class EnemyController : MonoBehaviour
         // Check if the enemy enters an object
         if (other.tag == "Stairs") { onStair = true; }
         if (other.tag == "FloorSign") { onSign = true; }
-        // Check if the player collides with any stair
-        if (other.tag == "Salt")
-        {
-            //Send the message to the enemy that they've been salted
-            Salted();
-        }
+        if (other.tag == "Salt") { Salted(); }
     }
     public void OnTriggerExit2D(Collider2D other)
     {
@@ -62,11 +59,16 @@ public class EnemyController : MonoBehaviour
     // Commands the enemy to move around the environment
     public void Move()
     {
+        anim.SetBool("Salted", false);
+
         var x = transform.position.x;
         var y = transform.position.y;
 
         if (walking)
         {
+            anim.SetBool("Walking", true);
+            anim.SetBool("Up", false);
+            anim.SetBool("Down", false);
             //Get the new position of our character
             if (direction[0]) { x = transform.position.x - 0.5f * Time.deltaTime * speed; }
             else if (!direction[0]) { x = transform.position.x + 0.5f * Time.deltaTime * speed; }
@@ -78,19 +80,39 @@ public class EnemyController : MonoBehaviour
         }
         else if (!walking)
         {
-            if (direction[1]) { y = transform.position.y + 0.5f * Time.deltaTime * speed; }
-            else if (!direction[1]) { y = transform.position.y - 0.5f * Time.deltaTime * speed; }
-            if (onSign && newFloor)
+            anim.SetBool("Walking", false);
+            if (direction[1]) 
+            { 
+                y = transform.position.y + 0.5f * Time.deltaTime * speed;
+                anim.SetBool("Up", true);
+            }
+            else if (!direction[1]) 
+            { 
+                y = transform.position.y - 0.5f * Time.deltaTime * speed;
+                anim.SetBool("Down", true);
+            }
+            if (onSign)
             {
-                walking = true;
-                newFloor = false;
+                if (direction[0]) { x = transform.position.x - 0.5f * Time.deltaTime * speed; }
+                else if (!direction[0]) { x = transform.position.x + 0.5f * Time.deltaTime * speed; }
+                if (newFloor)
+                {
+                    walking = true;
+                    newFloor = false;
+                }
             }
         }
 
         rigidBody.MovePosition(new Vector2(x, y));
     }
     public void Salted()
-    {
-        Debug.Log("Stunned");
+    {        
+           anim.SetBool("Salted", true);
+           //Set the current time as the last time the salt hit the enemy
+           saltHit = Time.time;
+
+           var x = transform.position.x;
+           var y = transform.position.y;
+           rigidBody.MovePosition(new Vector2(x, y));        
     }
 }
