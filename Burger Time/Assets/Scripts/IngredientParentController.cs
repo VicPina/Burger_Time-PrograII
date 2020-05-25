@@ -32,10 +32,6 @@ public class IngredientParentController : MonoBehaviour
 
     private void ChangeFloor()
     {
-        var x = transform.position.x;
-        var y = transform.position.y;
-        var z = transform.position.z;
-        y -= 0.125f; 
-        gameObject.transform.position = new Vector3(x, y, z);
+
     }
 }

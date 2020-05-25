@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -125,13 +126,8 @@ public class PlayerController : MonoBehaviour
             Instantiate(saltPrefab, transform.position, Quaternion.identity);
         }
     }
-    public bool Death()
+    public void Death()
     {
-        //Create an explosion on the coordinates of the hit.
-        //Instantiate(deathPrefab, hitCoordinates, Quaternion.identity);
-        Debug.Log("You died");
-        return true;
-        //Remove a life
-       // FindObjectOfType<LivesCounter>().RemoveLife();
+        SceneManager.LoadScene("Game Over");
     }
 }
